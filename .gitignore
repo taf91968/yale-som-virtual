@@ -15,3 +15,7 @@ data/private/
 # python
 .venv/
 __pycache__/
+
+# professor backend: personas DB is rebuilt from backend/app/seed.py on startup
+backend/professors.db
+!.env.example
